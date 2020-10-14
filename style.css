@@ -1,10 +1,20 @@
+body {
+    background: aquamarine;
+}
+
 nav {
     margin-bottom: 30px;
 }
 
 
-h1 {
-    background: rgb(66, 61, 61);
+section {
+    background: #34383d;
     text-align: center;
     padding: 10px;
+    color: azure;
+}
+
+img {
+    float: left;
+    border: solid white 2px;
 }
