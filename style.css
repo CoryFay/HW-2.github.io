@@ -18,3 +18,11 @@ img {
     float: left;
     border: solid white 2px;
 }
+
+footer {
+    background: #34383d;
+    color: azure;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
