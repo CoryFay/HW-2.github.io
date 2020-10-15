@@ -32,6 +32,14 @@ footer {
     
 }
 
+.card {
+    color:  #34383d;
+}
+
+.card-header {
+    font-size: 24px;
+}
+
 @media only screen and (max-width: 768px) {
 
 .center {
