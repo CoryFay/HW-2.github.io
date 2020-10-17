@@ -1,5 +1,8 @@
 # HW-2.github.io
 
+## Introduction
+  This repo contains the [webpage] (https://coryfay.github.io/HW-2.github.io/index.html)where I will be updating my portfolio!
+  
 ## About 
 
   The purpose of this project was to create a base level website containing information about myself. Within, are three different pages that provide a short bio, a portfolio page, and contact information. I Established this as a foundation on which i will continue to build and improve upon. I will be able to update my portfolio following some of my future projects.
