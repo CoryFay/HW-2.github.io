@@ -1,7 +1,7 @@
 # HW-2.github.io
 
 ## Introduction
-  This repo contains the [webpage] (https://coryfay.github.io/HW-2.github.io/index.html)where I will be updating my portfolio!
+  This repo contains the [webpage](https://coryfay.github.io/HW-2.github.io/) where I will be updating my portfolio!
   
 ## About 
 
