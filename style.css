@@ -1,16 +1,16 @@
-
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqqjrlDOwUrCBL5LnGOjReYFKGAxx1yQLTYg&usqp=CAU');
+}
 section {
     text-align: left;
-    color: black
+    color: black;
 }
-
-img {
+/* img {
     float: left;
     border: solid azure 2px;
     margin-right: 10px;
-}
-
-footer {
+} */
+/* footer {
     background: #34383d;
     color: azure;
     position: fixed;
@@ -19,23 +19,40 @@ footer {
     text-align: center;
     border: solid azure 2px;
     margin-top: 10px;
-    
+} */
+.row{
+    text-align: center;
 }
-
 .card {
+    text-align: left;
     color: black;
+    width: 50%;
 }
-
 .card-header {
     font-size: 24px;
 }
 .nav-link{
-    color: black;
+    color: white;
 }
-
 #navigation {
-    margin-bottom: 15px;
-    background-color: blanchedalmond;
+    margin-bottom: 20px;
+    background-color:black;
+    color: teal;
+}
+#picture{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 75px;
+    border: dashed black 1px;
+}
+#about{
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+#contactCard{
+  align-content: center;
 }
 
 
