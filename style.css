@@ -78,12 +78,14 @@ section {
 }
 #picture{
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
-    margin-bottom: 75px;
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     border: dashed black 1px;
 }
 #about{
+   padding-left: 3px;
     text-align: left;
     color: white;
     background-color: black;
@@ -101,6 +103,9 @@ section {
 }
 #emptyDiv{
     clear: both;
+}
+#indexSec {
+    text-align: center;
 }
 
 
