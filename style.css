@@ -20,11 +20,11 @@ section {
     border: solid azure 2px;
     margin-top: 10px;
 } */
-.row{
+/* .row{
     text-align: center;
-}
+} */
 .card {
-    text-align: left;
+    text-align: center;
     color: black;
     width: 50%;
 }
@@ -34,8 +34,45 @@ section {
 .nav-link{
     color: white;
 }
+.proj1-cont,
+.proj2-cont,
+.proj3-cont {
+    margin: 5px 0px 5px 0px;
+    color: white;
+    background-color: black;
+}
+.tangoHeader,
+.weatherHeader,
+.scheduleHeader {
+    text-align: center;
+    color: White;
+}
+.tangoTextDiv,
+.weatherTextDiv,
+.scheduleTextDiv {
+    width: 25%;
+    float: left;
+    background-color: black;
+    margin-left: 5px;
+}
+.tangoImgDiv,
+.weatherImgDiv,
+.scheduleImgDiv {
+    width: 75%;
+}
+.tangoLink,
+.weatherLink,
+.scheduleLink {
+    font-size: 24px;
+    color: teal;
+}
+.tangoP,
+.weatherP,
+.scheduleP {
+    color: white;
+}
 #navigation {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color:black;
     color: teal;
 }
@@ -51,9 +88,21 @@ section {
     color: white;
     background-color: black;
 }
-#contactCard{
-  align-content: center;
+#tangoImg1,
+#tangoImg2,
+#tangoImg3,
+#weatherImg1,
+#scheduleImg1 {
+    border: solid black 2px;
+    width: 65%;
+    height: 400px;
+    margin: 0px 5px 5px 0px;
+    float: right;
 }
+#emptyDiv{
+    clear: both;
+}
+
 
 
 /* @media only screen and (max-width: 768px) {

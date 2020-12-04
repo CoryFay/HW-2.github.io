@@ -5,7 +5,7 @@
   integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 
-<title>Portfolio!</title>
+<title>Portfolio</title>
 </head>
 
 <body>
@@ -31,17 +31,82 @@
     </div>
   </nav>
 
-  <section>
-    <div class="container portfolio-cont">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="Picture of myself.jpg" alt="Picture of myself" style="width:400px;height:300px;" class="center">
-          <img src="Picture of myself.jpg" alt="Picture of myself" style="width:400px;height:300px;" class="center">
-          <img src="Picture of myself.jpg" alt="Picture of myself" style="width:400px;height:300px;" class="center">
-          <img src="Picture of myself.jpg" alt="Picture of myself" style="width:400px;height:300px;" class="center">
-        </div>
-      </div>
+  <section class="proj1-cont">
+    <h1 class="tangoHeader">Label Generator</h1>
+    <div class="tangoTextDiv">
+      <a class="tangoLink" href="https://github.com/CoryFay/tango-packaging">Take me to the github repo!</a>
+      <br>
+      <br>
+      <p class="tangoP">This application is a label generator that myself and three others (profiles in the repo) built
+        for a local packaging business.</p>
+      <br>
+      <h4>The technologies used include:</h4>
+      <br>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Jquery</li>
+        <li>Materialize.css</li>
+        <li>API</li>
+      </ul>
     </div>
+    <div id="tangoImgDiv">
+      <img id="tangoImg1" src="Assets/Tango-Home.png">
+      <img id="tangoImg2" src="Assets/Tango-Packing-Sheet.png">
+      <img id="tangoImg3" src="Assets/Tango-Carton-Labels.png">
+    </div>
+    <div id="emptyDiv"></div>
+  </section>
+
+  <section class="proj2-cont">
+    <h1 class="weatherHeader">Weather Dashboard</h1>
+    <div class="weatherTextDiv">
+      <a class="weatherLink" href="https://github.com/CoryFay/weather-app">Take me to the github repo!</a>
+      <br>
+      <br>
+      <p class="weatherP">This application utilizes the OpenWeatherMap API to get current and forecasted weather data
+        for a desired city.</p>
+      <br>
+      <h4>The technologies used include:</h4>
+      <br>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Jquery</li>
+        <li>API</li>
+      </ul>
+    </div>
+    <div id="weatherImgDiv">
+      <img id="weatherImg1" src="Assets/Weather-API.png">
+    </div>
+    <div id="emptyDiv"></div>
+  </section>
+
+  <section class="proj3-cont">
+    <h1 class="scheduleHeader">Calendar Planner</h1>
+    <div class="scheduleTextDiv">
+      <a class="scheduleLink" href="https://coryfay.github.io/Calendar-Planner/">Take me to the github repo!</a>
+      <br>
+      <br>
+      <p class="scheduleP">This application accepts and stores user inputs so that whenever they reload the page their
+        activities for the day are displayed. </p>
+      <br>
+      <h4>The technologies used include:</h4>
+      <br>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Jquery</li>
+        <li>Moment.js</li>
+      </ul>
+    </div>
+    <div id="scheduleImgDiv">
+      <img id="scheduleImg1" src="Assets/Schedule-Planner.png">
+    </div>
+    <div id="emptyDiv"></div>
   </section>
   <!--Link .js from bootstrap-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -52,4 +117,5 @@
     crossorigin="anonymous"></script>
 
 </body>
+
 </html>
